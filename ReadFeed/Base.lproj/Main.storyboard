@@ -349,8 +349,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qfe-n1-n9L">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
+                                        <rect key="frame" x="-8" y="0.0" width="414" height="898"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Br6-iP-6Gb">
+                                                <rect key="frame" x="0.0" y="0.0" width="417" height="1000"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="icw-cb-FTD" firstAttribute="width" secondItem="Br6-iP-6Gb" secondAttribute="width" id="4y3-KP-Lem"/>
+                                            <constraint firstItem="Br6-iP-6Gb" firstAttribute="bottom" secondItem="wst-Lu-XQ4" secondAttribute="bottom" id="9cM-rT-scs"/>
+                                            <constraint firstItem="Br6-iP-6Gb" firstAttribute="leading" secondItem="wst-Lu-XQ4" secondAttribute="leading" constant="70" id="Bqj-Aa-vCl"/>
+                                            <constraint firstItem="Br6-iP-6Gb" firstAttribute="centerY" secondItem="wst-Lu-XQ4" secondAttribute="centerY" id="Gda-LO-F7P"/>
+                                            <constraint firstItem="Br6-iP-6Gb" firstAttribute="top" secondItem="wst-Lu-XQ4" secondAttribute="top" id="Mqf-jO-Iyu"/>
+                                            <constraint firstItem="Br6-iP-6Gb" firstAttribute="trailing" secondItem="wst-Lu-XQ4" secondAttribute="trailing" constant="310" id="jvS-if-6d8"/>
+                                        </constraints>
                                         <viewLayoutGuide key="contentLayoutGuide" id="wst-Lu-XQ4"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="icw-cb-FTD"/>
                                     </scrollView>
@@ -364,7 +378,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="leopold_the_bookworm">
                                         <attributes>
-                                            <font key="NSFont" size="22" name=".SFNS-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="22"/>
                                             <font key="NSOriginalFont" size="24" name="Didot"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
