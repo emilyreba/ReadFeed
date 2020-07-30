@@ -206,17 +206,17 @@
             </objects>
             <point key="canvasLocation" x="2383" y="765"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--About Me-->
         <scene sceneID="EUP-hq-Ulk">
             <objects>
-                <tabBarController id="SzG-zn-Gmu" sceneMemberID="viewController">
+                <tabBarController title="About Me" id="SzG-zn-Gmu" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ExX-Qf-Mxp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Pu7-2m-pwt" kind="relationship" relationship="viewControllers" id="rLA-dA-ge9"/>
+                        <segue destination="dk2-4Z-7gA" kind="relationship" relationship="viewControllers" id="CfC-eL-7xr"/>
                         <segue destination="Ym8-VS-SgN" kind="relationship" relationship="viewControllers" id="d5v-pd-ngM"/>
                         <segue destination="6Hc-K8-tO1" kind="relationship" relationship="viewControllers" id="bFR-IR-0o8"/>
                     </connections>
@@ -226,40 +226,6 @@
             <point key="canvasLocation" x="-710" y="157"/>
         </scene>
         <!--About Me-->
-        <scene sceneID="79Q-YL-E2S">
-            <objects>
-                <viewController id="Pu7-2m-pwt" customClass="profilePageViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="v5G-n2-SXS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5S-fU-V5G">
-                                <rect key="frame" x="372" y="24" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="rectangle.grid.1x2" catalog="system">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="addBooks:" destination="Pu7-2m-pwt" eventType="touchUpInside" id="c7B-N9-hQY"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="asO-XL-49a"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="About Me" image="bookmark" catalog="system" id="noG-pN-jVg"/>
-                    <navigationItem key="navigationItem" id="gce-BR-FQp"/>
-                    <connections>
-                        <outlet property="bookList" destination="PBV-KN-3ZM" id="wlj-z4-7OF"/>
-                        <outlet property="listOfBooks" destination="uLT-Gd-krw" id="sBW-j6-MXl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sbv-dW-wAT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="60.869565217391312" y="-603.34821428571422"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="39G-tz-AZl">
             <objects>
                 <viewController id="dk2-4Z-7gA" sceneMemberID="viewController">
@@ -323,7 +289,6 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="addBooks:" destination="PVh-FH-ZrP" eventType="touchUpInside" id="5bH-6m-xK2"/>
-                                                            <action selector="addBooksToRead:" destination="Pu7-2m-pwt" eventType="touchUpInside" id="VAG-Ph-Q3M"/>
                                                         </connections>
                                                     </button>
                                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-Gd-krw">
@@ -333,7 +298,7 @@
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBV-KN-3ZM">
-                                                        <rect key="frame" x="186" y="391" width="42" height="21"/>
+                                                        <rect key="frame" x="186" y="381" width="42" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -342,6 +307,7 @@
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.83158582449999996" green="0.95253199340000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="550" id="fRf-E1-JQI"/>
                                                     <constraint firstAttribute="height" constant="600" id="l6V-y4-2jD"/>
                                                 </constraints>
                                             </view>
@@ -439,19 +405,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E2O-tX-Acb"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="About Me" image="house" catalog="system" id="CZN-Ar-MM7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esk-rH-54z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087" y="-564"/>
+            <point key="canvasLocation" x="60.869565217391312" y="-558.48214285714278"/>
         </scene>
     </scenes>
     <resources>
-        <image name="bookmark" catalog="system" width="112" height="128"/>
         <image name="bookworm" width="279" height="181"/>
         <image name="bookworm-1" width="279" height="181"/>
+        <image name="house" catalog="system" width="128" height="110"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <image name="plus.rectangle" catalog="system" width="128" height="93"/>
-        <image name="rectangle.grid.1x2" catalog="system" width="128" height="101"/>
     </resources>
 </document>
