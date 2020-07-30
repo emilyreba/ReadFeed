@@ -15,11 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41U-pH-puM">
-                                <rect key="frame" x="20" y="20" width="115" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4co-IR-nXu">
                                 <rect key="frame" x="251" y="246" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -208,74 +203,197 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3w2-Wr-bDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60.869565217391312" y="109.82142857142857"/>
+            <point key="canvasLocation" x="61" y="-258"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0q5-vL-Nsn">
+            <objects>
+                <viewController id="MGR-HL-aAq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qrR-aB-7Ms">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9os-pq-OBz">
+                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RlA-Ta-19j">
+                                <rect key="frame" x="272" y="753" width="107" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back To Feed">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back To Feed">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="vTZ-FO-hWi" kind="push" id="zr2-wc-HT6"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onceWeWereBrothers" translatesAutoresizingMaskIntoConstraints="NO" id="VxH-Yu-Aga">
+                                <rect key="frame" x="4" y="64" width="408" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Shl-rE-qwu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q3L-rP-4zM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Geo-hu-kSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="538"/>
         </scene>
         <!--Item-->
         <scene sceneID="0BJ-k0-lLG">
             <objects>
                 <viewController id="vTZ-FO-hWi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gtP-3i-8Cv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7VP-dN-G9b">
-                                <rect key="frame" x="0.0" y="20" width="414" height="856"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="802"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-Ej-41g">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFf-Ub-eBe">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-TX-03a">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="myq-J7-gef">
-                                                        <rect key="frame" x="19" y="62" width="376" height="444"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdK-V3-Qkt">
+                                                        <rect key="frame" x="139" y="0.0" width="137" height="45"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.                                                                         My review: 5 stars. It’s not like any other story about the Holocaust. I couldn’t put this book down it was so good! No matter what type of book you like- you’ll probably enjoy reading this!</string>
-                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once We Were Brothers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-0L-GeD">
-                                                        <rect key="frame" x="19" y="22" width="414" height="31.5"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="My Feed">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="36" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Great Gatsby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcB-fZ-PcE">
+                                                        <rect key="frame" x="0.0" y="53" width="414" height="32"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZj-9s-ih6">
+                                                        <rect key="frame" x="116" y="93" width="182" height="277"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" image="theGreatGatsby"/>
+                                                        <connections>
+                                                            <segue destination="Asq-Kr-A6k" kind="push" id="A2y-Ij-lEQ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-HB-sPd">
+                                                        <rect key="frame" x="29" y="354" width="356" height="261"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Review:  This is the most beautifully written book I have ever read. I really enjoyed analyzing the grammatical structure and the detailed descriptions inside the text because they were impeccable. Each of the characters are complex and up for interpretation; whatever your opinions are regarding them, each character will pull you in and put you through a plethora of emotions. I loved reading this and I’m sure you will too.</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="17" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="IAL-sc-od6"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFf-Ub-eBe">
+                                                <rect key="frame" x="0.0" y="600" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once We Were Brothers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-0L-GeD">
+                                                        <rect key="frame" x="59" y="75" width="307" height="32"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cg-9d-3h8">
+                                                        <rect key="frame" x="121" y="129" width="183" height="275"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" image="onceWeWereBrothers"/>
+                                                        <connections>
+                                                            <segue destination="MGR-HL-aAq" kind="push" id="uL8-qC-iJ0"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgY-Mf-lw9">
+                                                        <rect key="frame" x="21" y="383" width="382" height="217"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Review: It’s not like any other story about the Holocaust. I couldn’t put this book down it was so good! No matter what type of book you like- you’ll probably enjoy reading this!</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.99980562930000005" green="0.83646291490000002" blue="0.97256380320000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="600" id="Fdc-PB-pEe"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpF-jV-cko">
-                                                <rect key="frame" x="0.0" y="600" width="414" height="600"/>
+                                                <rect key="frame" x="0.0" y="1200" width="414" height="600"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exodus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dC-TZ-zCl">
-                                                        <rect key="frame" x="20" y="41" width="98" height="37"/>
+                                                        <rect key="frame" x="158" y="26" width="98" height="37"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n7U-Dv-zzA">
-                                                        <rect key="frame" x="20" y="76" width="374" height="180"/>
+                                                        <rect key="frame" x="20" y="376" width="374" height="180"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="1" green="0.83578711750000001" blue="0.97566562889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.81334739919999999" green="0.95592945809999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <attributedString key="attributedText">
                                                             <fragment>
-                                                                <string key="content">I've read this book over and over again and I never get tired of it. The chapters when the author goes  into the backsories of the characters is fascinating and heartbreaking, and you'll become so invested in the story you won't be able to stop reading.</string>
+                                                                <string key="content">Review: I've read this book over and over again and I never get tired of it. The chapters when the author goes  into the backstories of the characters is fascinating and heartbreaking, and you'll become so invested in the story you won't be able to stop reading.</string>
                                                                 <attributes>
-                                                                    <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                     <font key="NSFont" size="19" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ia-cE-HsS">
+                                                        <rect key="frame" x="117" y="71" width="180" height="297"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" image="exodus"/>
+                                                        <connections>
+                                                            <segue destination="jqj-Nh-u4M" kind="push" id="3WG-ID-pjO"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
-                                                <color key="backgroundColor" red="1" green="0.83990734820000001" blue="0.9715052247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.84053641560000003" green="0.95194131140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="600" id="rhe-Rv-SOX"/>
                                                 </constraints>
@@ -283,6 +401,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="MFf-Ub-eBe" secondAttribute="trailing" constant="4" id="0CN-v4-lhb"/>
+                                            <constraint firstItem="bmr-TX-03a" firstAttribute="top" secondItem="yaT-Ej-41g" secondAttribute="top" constant="20" symbolic="YES" id="Kie-Hs-TiI"/>
                                             <constraint firstItem="MFf-Ub-eBe" firstAttribute="leading" secondItem="yaT-Ej-41g" secondAttribute="leading" constant="4" id="jFp-RJ-ygk"/>
                                         </constraints>
                                     </stackView>
@@ -308,10 +427,11 @@
                         <viewLayoutGuide key="safeArea" id="hn3-MF-kda"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" id="4l3-0a-nOW"/>
+                    <navigationItem key="navigationItem" id="Boj-WO-uQy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="coh-wV-cZe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-878.26086956521749" y="842.41071428571422"/>
+            <point key="canvasLocation" x="61" y="1123"/>
         </scene>
         <!--Search-->
         <scene sceneID="CNs-Bm-XoQ">
@@ -322,7 +442,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3O-Xh-ix2">
-                                <rect key="frame" x="0.0" y="21" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="53" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -335,102 +455,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="av6-47-e8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="817"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="hdp-RC-PTy">
-            <objects>
-                <viewController id="i8I-xy-Yx4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RNo-yX-zKS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once We Were Brothers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3y3-LE-P2j">
-                                <rect key="frame" x="73" y="94" width="268" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jc9-sk-SYp">
-                                <rect key="frame" x="16" y="142" width="383" height="400.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97029513119999999" green="0.99487036470000001" blue="0.99873095749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.                                                                         My review: 5 stars. It’s not like any other story about the Holocaust. I couldn’t put this book down it was so good! No matter what type of book you like- you’ll probably enjoy reading this!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.85951620340000001" green="0.95099073649999999" blue="0.99508959050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="gUV-Xg-gzZ"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gk6-eL-gRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="111.59420289855073" y="1598.4375"/>
-        </scene>
-        <!--Checklist View Controller-->
-        <scene sceneID="bGf-2c-qIf">
-            <objects>
-                <viewController id="PVh-FH-ZrP" customClass="ChecklistViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FMy-tT-OCy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books I'm Currently Reading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyd-NA-djM">
-                                <rect key="frame" x="99" y="61" width="216" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yc-yL-XOR">
-                                <rect key="frame" x="65" y="173" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huo-wK-0b2">
-                                <rect key="frame" x="177" y="173" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJg-J5-NNP">
-                                <rect key="frame" x="299" y="173" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                                <connections>
-                                    <action selector="FifthBookwormRating:" destination="PVh-FH-ZrP" eventType="touchUpInside" id="7hd-8J-viJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOv-Kv-F9R">
-                                <rect key="frame" x="238" y="173" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUw-1G-eTU">
-                                <rect key="frame" x="121" y="173" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlI-py-dSu">
-                                <rect key="frame" x="-19" y="85" width="115" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.83968120810000002" green="0.95250529049999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="u1P-yj-EOE"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="2VL-A8-Ltk"/>
-                    <connections>
-                        <outlet property="bookList" destination="PBV-KN-3ZM" id="yVJ-ib-21g"/>
-                        <outlet property="listOfBooks" destination="uLT-Gd-krw" id="h0o-G3-pHS"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vqU-Rq-krx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2383" y="765"/>
+            <point key="canvasLocation" x="61" y="420"/>
         </scene>
         <!--About Me-->
         <scene sceneID="EUP-hq-Ulk">
@@ -504,7 +529,7 @@
                                                         <rect key="frame" x="61" y="447" width="161" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Read pages 40-60" image="circle" catalog="system">
+                                                        <state key="normal" title="Read pages 40-60" image="checkmark.circle" catalog="system">
                                                             <attributedString key="attributedTitle">
                                                                 <fragment content="Read pages 31-60">
                                                                     <attributes>
@@ -535,7 +560,7 @@
                                                         <rect key="frame" x="66" y="366" width="152" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Read pages 40-60" image="circle" catalog="system">
+                                                        <state key="normal" title="Read pages 40-60" image="checkmark.circle" catalog="system">
                                                             <attributedString key="attributedTitle">
                                                                 <fragment content="Read pages 1-30">
                                                                     <attributes>
@@ -737,7 +762,6 @@
                                                             <attributedString key="attributedTitle"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="addBooks:" destination="PVh-FH-ZrP" eventType="touchUpInside" id="5bH-6m-xK2"/>
                                                             <action selector="addToList:" destination="dk2-4Z-7gA" eventType="touchUpInside" id="nfr-el-9q1"/>
                                                         </connections>
                                                     </button>
@@ -820,17 +844,168 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esk-rH-54z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60.869565217391312" y="-558.48214285714278"/>
+            <point key="canvasLocation" x="61" y="-944"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wpH-L0-geF">
+            <objects>
+                <viewController id="jqj-Nh-u4M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u6Z-Lx-PVp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="siy-HG-D8x">
+                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Exodus is a historical fiction novel about the establishment of the State of Israel in 1948. It begins with a descriptions of the illegal immigrations done by the Mossad Aliya Bet to get survivors of the Holocaust into Israel and ends with the Israeli War of Independence in 1948-1949</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exodus" translatesAutoresizingMaskIntoConstraints="NO" id="EaP-Bn-v73">
+                                <rect key="frame" x="7" y="60" width="401" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVR-Vm-ntj">
+                                <rect key="frame" x="277" y="756" width="107" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back To Feed">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back To Feed">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="vTZ-FO-hWi" kind="push" id="Mk2-pc-S7U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Pn7-q8-ocC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dly-NU-jLU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PoD-wZ-VyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="2111"/>
+        </scene>
+        <!--Great Gatsby-->
+        <scene sceneID="Op7-Fu-Rkj">
+            <objects>
+                <viewController id="Asq-Kr-A6k" userLabel="Great Gatsby" customClass="GreatGatsbyViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pFN-7D-dLd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MB5-ke-70Q">
+                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted "gin was the national drink and sex the national obsession," it is an exquisitely crafted tale of America in the 1920s.
+                                                                </string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theGreatGatsby" translatesAutoresizingMaskIntoConstraints="NO" id="KJb-9f-xuL">
+                                <rect key="frame" x="7" y="66" width="401" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4p-Nw-Qby">
+                                <rect key="frame" x="277" y="761" width="107" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back To Feed">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back To Feed">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="vTZ-FO-hWi" kind="push" id="HK4-Hu-6bd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yc-yL-XOR">
+                                <rect key="frame" x="64" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bookworm-1"/>
+                                <connections>
+                                    <action selector="stBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="QO6-pK-hLm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huo-wK-0b2">
+                                <rect key="frame" x="176" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bookworm-1"/>
+                                <connections>
+                                    <action selector="thirdBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="72k-f1-jA4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJg-J5-NNP">
+                                <rect key="frame" x="298" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bookworm-1"/>
+                                <connections>
+                                    <action selector="fifthBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="W1R-nA-8xt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOv-Kv-F9R">
+                                <rect key="frame" x="237" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bookworm-1"/>
+                                <connections>
+                                    <action selector="fourthBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="gBG-qu-zvL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUw-1G-eTU">
+                                <rect key="frame" x="120" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bookworm-1"/>
+                                <connections>
+                                    <action selector="secondBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="Trc-6k-i4N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-hA-vef">
+                                <rect key="frame" x="12" y="665" width="392" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="OYR-ql-fYC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wFZ-2G-mVx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAr-io-Kc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="1230"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="A2y-Ij-lEQ"/>
+        <segue reference="HK4-Hu-6bd"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="101"/>
-        <image name="bookworm" width="279" height="181"/>
         <image name="bookworm-1" width="279" height="181"/>
+        <image name="checkmark.circle" catalog="system" width="128" height="121"/>
         <image name="circle" catalog="system" width="128" height="121"/>
+        <image name="exodus" width="224" height="368"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="onceWeWereBrothers" width="183" height="275"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="plus.rectangle" catalog="system" width="128" height="93"/>
+        <image name="theGreatGatsby" width="182" height="277"/>
     </resources>
 </document>

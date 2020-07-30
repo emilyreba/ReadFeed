@@ -11,6 +11,7 @@
 		A146D2FE24D0A85E00B0764F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D2FD24D0A85E00B0764F /* SearchViewController.swift */; };
 		A146D30024D0A88F00B0764F /* ReccomendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D2FF24D0A88F00B0764F /* ReccomendedViewController.swift */; };
 		A146D30224D0A8A900B0764F /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30124D0A8A900B0764F /* ChecklistViewController.swift */; };
+		A146D30624D3722F00B0764F /* GreatGatsbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30524D3722F00B0764F /* GreatGatsbyViewController.swift */; };
 		B2943C8C24D09E06000FCB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8B24D09E06000FCB65 /* AppDelegate.swift */; };
 		B2943C8E24D09E06000FCB65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8D24D09E06000FCB65 /* SceneDelegate.swift */; };
 		B2943C9024D09E06000FCB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8F24D09E06000FCB65 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		A146D2FD24D0A85E00B0764F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A146D2FF24D0A88F00B0764F /* ReccomendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReccomendedViewController.swift; sourceTree = "<group>"; };
 		A146D30124D0A8A900B0764F /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		A146D30524D3722F00B0764F /* GreatGatsbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatGatsbyViewController.swift; sourceTree = "<group>"; };
 		B2943C8824D09E06000FCB65 /* ReadFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2943C8B24D09E06000FCB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2943C8D24D09E06000FCB65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		B2943C7F24D09E06000FCB65 = {
 			isa = PBXGroup;
 			children = (
+				A146D30524D3722F00B0764F /* GreatGatsbyViewController.swift */,
 				B2943C8A24D09E06000FCB65 /* ReadFeed */,
 				B2943CA424D09E0B000FCB65 /* ReadFeedTests */,
 				B2943CAF24D09E0C000FCB65 /* ReadFeedUITests */,
@@ -109,10 +112,10 @@
 		B2943C8A24D09E06000FCB65 /* ReadFeed */ = {
 			isa = PBXGroup;
 			children = (
+				B2943C9124D09E06000FCB65 /* Main.storyboard */,
 				B2943C8B24D09E06000FCB65 /* AppDelegate.swift */,
 				B2943C8D24D09E06000FCB65 /* SceneDelegate.swift */,
 				B2943C8F24D09E06000FCB65 /* ViewController.swift */,
-				B2943C9124D09E06000FCB65 /* Main.storyboard */,
 				A146D2FD24D0A85E00B0764F /* SearchViewController.swift */,
 				A146D2FF24D0A88F00B0764F /* ReccomendedViewController.swift */,
 				A146D30124D0A8A900B0764F /* ChecklistViewController.swift */,
@@ -282,6 +285,7 @@
 				B2943C8C24D09E06000FCB65 /* AppDelegate.swift in Sources */,
 				A146D2FC24D0A81900B0764F /* profilePageViewController.swift in Sources */,
 				B2943C8E24D09E06000FCB65 /* SceneDelegate.swift in Sources */,
+				A146D30624D3722F00B0764F /* GreatGatsbyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
