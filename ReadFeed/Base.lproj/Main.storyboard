@@ -15,102 +15,192 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Reccomendations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-kG-faC">
-                                <rect key="frame" x="125" y="166" width="170" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41U-pH-puM">
                                 <rect key="frame" x="20" y="20" width="115" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="bookworm-1"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4co-IR-nXu">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4co-IR-nXu">
                                 <rect key="frame" x="251" y="246" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Fiction"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Fiction">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="fictionButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="4h1-Jd-gdb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brE-Hk-smD">
-                                <rect key="frame" x="59" y="295" width="115" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brE-Hk-smD">
+                                <rect key="frame" x="57" y="295" width="119" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Historical Fiction"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Historical Fiction">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="historicalFictionButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="e52-IJ-Kpj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afb-Mw-hEC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afb-Mw-hEC">
                                 <rect key="frame" x="251" y="344" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Classics"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Classics">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="classicButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="zUZ-C9-Fx4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pQ-c8-qbP">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2pQ-c8-qbP">
                                 <rect key="frame" x="59" y="344" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Fantasy"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Fantasy">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="fantasyButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="L4L-Ie-un5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naR-e9-jLR">
-                                <rect key="frame" x="251" y="295" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="naR-e9-jLR">
+                                <rect key="frame" x="250" y="295" width="112" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Womens Fiction"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Womens Fiction">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="womensFiction:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="zY3-Vi-wsm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W98-1s-ufM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W98-1s-ufM">
                                 <rect key="frame" x="59" y="397" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Essays"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Essays">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="essayButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="ELD-GA-NaN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiC-Xh-jce">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xiC-Xh-jce">
                                 <rect key="frame" x="59" y="246" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Non-Fiction"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Non-Fiction">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="nonFictionButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="6rM-6f-0Sp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Reccomendation..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQT-vN-ML3">
-                                <rect key="frame" x="121" y="473" width="176" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQT-vN-ML3">
+                                <rect key="frame" x="59" y="473" width="302" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Our Recommendation...">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Didot"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aX6-Ix-lYg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aX6-Ix-lYg">
                                 <rect key="frame" x="251" y="397" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Memoirs"/>
+                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Memoirs">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Didot"/>
+                                                <font key="NSOriginalFont" size="15" name="Didot"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="memoirButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="Hk1-Ny-0ym"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-kG-faC">
+                                <rect key="frame" x="91" y="166" width="239" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Get Reccomendations">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Didot"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.83968120810000002" green="0.95250529049999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JDM-jm-fdF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reccomendations" image="plus.app" catalog="system" id="5k4-SA-md1"/>
+                    <tabBarItem key="tabBarItem" title="Reccomendations" image="book" catalog="system" id="5k4-SA-md1"/>
                     <navigationItem key="navigationItem" id="qO5-lj-Km4"/>
                     <connections>
                         <outlet property="reccomendationLabel" destination="WQT-vN-ML3" id="rr3-eS-dEQ"/>
@@ -118,7 +208,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3w2-Wr-bDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="110"/>
+            <point key="canvasLocation" x="60.869565217391312" y="109.82142857142857"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="0BJ-k0-lLG">
+            <objects>
+                <viewController id="vTZ-FO-hWi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gtP-3i-8Cv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7VP-dN-G9b">
+                                <rect key="frame" x="0.0" y="20" width="414" height="856"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-Ej-41g">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFf-Ub-eBe">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="myq-J7-gef">
+                                                        <rect key="frame" x="19" y="62" width="376" height="444"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.                                                                         My review: 5 stars. It’s not like any other story about the Holocaust. I couldn’t put this book down it was so good! No matter what type of book you like- you’ll probably enjoy reading this!</string>
+                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once We Were Brothers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-0L-GeD">
+                                                        <rect key="frame" x="19" y="22" width="414" height="31.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="Fdc-PB-pEe"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpF-jV-cko">
+                                                <rect key="frame" x="0.0" y="600" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exodus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dC-TZ-zCl">
+                                                        <rect key="frame" x="20" y="41" width="98" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n7U-Dv-zzA">
+                                                        <rect key="frame" x="20" y="76" width="374" height="180"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="1" green="0.83578711750000001" blue="0.97566562889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">I've read this book over and over again and I never get tired of it. The chapters when the author goes  into the backsories of the characters is fascinating and heartbreaking, and you'll become so invested in the story you won't be able to stop reading.</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <font key="NSFont" size="19" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.83990734820000001" blue="0.9715052247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="rhe-Rv-SOX"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="MFf-Ub-eBe" secondAttribute="trailing" constant="4" id="0CN-v4-lhb"/>
+                                            <constraint firstItem="MFf-Ub-eBe" firstAttribute="leading" secondItem="yaT-Ej-41g" secondAttribute="leading" constant="4" id="jFp-RJ-ygk"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yaT-Ej-41g" firstAttribute="trailing" secondItem="l4q-Qh-FGw" secondAttribute="trailing" id="2bK-ca-mCH"/>
+                                    <constraint firstItem="yaT-Ej-41g" firstAttribute="top" secondItem="l4q-Qh-FGw" secondAttribute="top" id="B7M-WZ-upg"/>
+                                    <constraint firstItem="yaT-Ej-41g" firstAttribute="leading" secondItem="l4q-Qh-FGw" secondAttribute="leading" id="EmE-EF-cp0"/>
+                                    <constraint firstItem="yaT-Ej-41g" firstAttribute="bottom" secondItem="l4q-Qh-FGw" secondAttribute="bottom" id="o6z-uY-wIb"/>
+                                    <constraint firstItem="yaT-Ej-41g" firstAttribute="width" secondItem="it2-Qh-qpA" secondAttribute="width" id="oGm-Jw-H0e"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="l4q-Qh-FGw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="it2-Qh-qpA"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85951620340000001" green="0.95099073649999999" blue="0.99508959050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7VP-dN-G9b" secondAttribute="bottom" constant="20" symbolic="YES" id="FME-YH-DvZ"/>
+                            <constraint firstItem="7VP-dN-G9b" firstAttribute="leading" secondItem="hn3-MF-kda" secondAttribute="leading" id="NTl-iT-pss"/>
+                            <constraint firstItem="7VP-dN-G9b" firstAttribute="top" secondItem="gtP-3i-8Cv" secondAttribute="top" constant="20" symbolic="YES" id="VQb-Gn-vP4"/>
+                            <constraint firstItem="7VP-dN-G9b" firstAttribute="trailing" secondItem="hn3-MF-kda" secondAttribute="trailing" id="k7N-Ir-52Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hn3-MF-kda"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" id="4l3-0a-nOW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="coh-wV-cZe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-878.26086956521749" y="842.41071428571422"/>
         </scene>
         <!--Search-->
         <scene sceneID="CNs-Bm-XoQ">
@@ -143,6 +336,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="av6-47-e8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="61" y="817"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hdp-RC-PTy">
+            <objects>
+                <viewController id="i8I-xy-Yx4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RNo-yX-zKS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once We Were Brothers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3y3-LE-P2j">
+                                <rect key="frame" x="73" y="94" width="268" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jc9-sk-SYp">
+                                <rect key="frame" x="16" y="142" width="383" height="400.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97029513119999999" green="0.99487036470000001" blue="0.99873095749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.                                                                         My review: 5 stars. It’s not like any other story about the Holocaust. I couldn’t put this book down it was so good! No matter what type of book you like- you’ll probably enjoy reading this!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85951620340000001" green="0.95099073649999999" blue="0.99508959050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gUV-Xg-gzZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gk6-eL-gRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="1598.4375"/>
         </scene>
         <!--Checklist View Controller-->
         <scene sceneID="bGf-2c-qIf">
@@ -216,9 +442,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="dk2-4Z-7gA" kind="relationship" relationship="viewControllers" id="CfC-eL-7xr"/>
-                        <segue destination="Ym8-VS-SgN" kind="relationship" relationship="viewControllers" id="d5v-pd-ngM"/>
+                        <segue destination="vTZ-FO-hWi" kind="relationship" relationship="viewControllers" id="XDk-q1-UlZ"/>
                         <segue destination="6Hc-K8-tO1" kind="relationship" relationship="viewControllers" id="bFR-IR-0o8"/>
+                        <segue destination="Ym8-VS-SgN" kind="relationship" relationship="viewControllers" id="d5v-pd-ngM"/>
+                        <segue destination="dk2-4Z-7gA" kind="relationship" relationship="viewControllers" id="CfC-eL-7xr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BbW-Az-h3q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -228,7 +455,7 @@
         <!--About Me-->
         <scene sceneID="39G-tz-AZl">
             <objects>
-                <viewController id="dk2-4Z-7gA" sceneMemberID="viewController">
+                <viewController id="dk2-4Z-7gA" customClass="profilePageViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJx-Xd-Inz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,12 +470,12 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O0-Tf-2dp">
-                                                        <rect key="frame" x="82" y="52" width="251" height="25"/>
+                                                        <rect key="frame" x="82" y="69" width="274" height="25"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="leopold_the_bookworm">
                                                                 <attributes>
-                                                                    <font key="NSFont" metaFont="system" size="22"/>
+                                                                    <font key="NSFont" size="24" name="Didot"/>
                                                                     <font key="NSOriginalFont" size="24" name="Didot"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
@@ -257,51 +484,125 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookworm-1" translatesAutoresizingMaskIntoConstraints="NO" id="dgc-Rm-dJN">
-                                                        <rect key="frame" x="155" y="85" width="104" height="70"/>
+                                                        <rect key="frame" x="167" y="112" width="104" height="70"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books I've Reviewed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpj-mM-PZ9">
-                                                        <rect key="frame" x="114" y="176" width="186" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smb-60-r0Q">
+                                                        <rect key="frame" x="61" y="411" width="133" height="28"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Today's Goal:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="22" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Great Gatsby by F. Scott Fitzgerald" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdC-bf-nn4">
-                                                        <rect key="frame" x="30" y="210" width="355" height="26"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVY-o9-CKn">
+                                                        <rect key="frame" x="61" y="447" width="161" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books I want to Read" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01d-Uu-zY9">
-                                                        <rect key="frame" x="119" y="275" width="189" height="26"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2OK-dD-zho">
-                                                        <rect key="frame" x="195" y="309" width="24" height="22"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" image="plus.rectangle" catalog="system">
-                                                            <attributedString key="attributedTitle"/>
+                                                        <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Read pages 40-60" image="circle" catalog="system">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Read pages 31-60">
+                                                                    <attributes>
+                                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <font key="NSFont" size="18" name="Didot"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
                                                         </state>
                                                         <connections>
-                                                            <action selector="addBooks:" destination="PVh-FH-ZrP" eventType="touchUpInside" id="5bH-6m-xK2"/>
+                                                            <action selector="todayUnselected:" destination="dk2-4Z-7gA" eventType="touchUpInside" id="k00-vW-vgo"/>
                                                         </connections>
                                                     </button>
-                                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-Gd-krw">
-                                                        <rect key="frame" x="41" y="339" width="332" height="34"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFV-u5-oe9">
+                                                        <rect key="frame" x="61" y="330" width="169" height="28"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
-                                                    </textField>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBV-KN-3ZM">
-                                                        <rect key="frame" x="186" y="381" width="42" height="21"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Yesterday's Goal:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="22" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWI-1O-NFE">
+                                                        <rect key="frame" x="66" y="366" width="152" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Read pages 40-60" image="circle" catalog="system">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Read pages 1-30">
+                                                                    <attributes>
+                                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <font key="NSFont" size="18" name="Didot"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="yesterdayUnselected:" destination="dk2-4Z-7gA" eventType="touchUpInside" id="8iL-A7-bLN"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM9-Xo-C7L">
+                                                        <rect key="frame" x="61" y="495" width="177" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Tomorrow's Goal:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="22" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zda-ql-aze">
+                                                        <rect key="frame" x="61" y="531" width="161" height="23"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Read pages 40-60" image="circle" catalog="system">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Read pages 61-90">
+                                                                    <attributes>
+                                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <font key="NSFont" size="18" name="Didot"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tomorrowUnselected:" destination="dk2-4Z-7gA" eventType="touchUpInside" id="NFb-B2-XbU"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FV-BB-lVD">
+                                                        <rect key="frame" x="61" y="286" width="316" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="The Paris Wife by Paula McLain">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="22" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIO-4s-bgh">
+                                                        <rect key="frame" x="49" y="233" width="317" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Books I'm Currently Reading">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="24" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -314,65 +615,171 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B9n-Bx-IwI">
                                                 <rect key="frame" x="0.0" y="600" width="414" height="600"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revolutionary by Alex Myers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4v-g6-pMU">
-                                                        <rect key="frame" x="62" y="207" width="215" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4v-g6-pMU">
+                                                        <rect key="frame" x="25" y="288" width="231" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Revolutionary by Alex Myers">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exodus by Leon Uris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-gy-oeJ">
-                                                        <rect key="frame" x="62" y="236" width="156" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-gy-oeJ">
+                                                        <rect key="frame" x="25" y="317" width="154" height="20"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Exodus by Leon Uris">
+                                                                <attributes>
+                                                                    <font key="NSFont" metaFont="system" size="18"/>
+                                                                    <font key="NSOriginalFont" metaFont="system" size="18"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percy Jackson by Rick Riordan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyT-jt-Fnc">
-                                                        <rect key="frame" x="62" y="265" width="234" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyT-jt-Fnc">
+                                                        <rect key="frame" x="25" y="346" width="318" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Percy Jackson by Rick Riordan">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <font key="NSOriginalFont" size="18" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Circe by Madeline Miller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvz-6A-jXK">
-                                                        <rect key="frame" x="62" y="294" width="183" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvz-6A-jXK">
+                                                        <rect key="frame" x="25" y="375" width="200" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Circe by Madeline Miller">
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <font key="NSOriginalFont" size="18" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books I Have Read" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfz-if-gcz">
-                                                        <rect key="frame" x="140" y="165" width="143" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfz-if-gcz">
+                                                        <rect key="frame" x="87" y="250" width="205" height="30"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Books I Have Read">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="24" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books I'm Currently Reading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIO-4s-bgh">
-                                                        <rect key="frame" x="99" y="30" width="216" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3g-xw-fpA">
+                                                        <rect key="frame" x="25" y="404" width="206" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="The Women in the Castle">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <font key="NSOriginalFont" size="18" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3et-mQ-28b">
-                                                        <rect key="frame" x="41" y="59" width="332" height="34"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNK-8l-qHO">
+                                                        <rect key="frame" x="52" y="477" width="236" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Books I've Reviewed">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="24" name="Didot"/>
+                                                                    <font key="NSOriginalFont" size="24" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sps-wp-i92">
+                                                        <rect key="frame" x="25" y="513" width="365" height="23"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="The Great Gatsby by F. Scott Fitzgerald">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEc-cK-XVj">
+                                                        <rect key="frame" x="25" y="544" width="365" height="23"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Circe">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2OK-dD-zho">
+                                                        <rect key="frame" x="195" y="61" width="24" height="22"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" image="plus.rectangle" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addBooks:" destination="PVh-FH-ZrP" eventType="touchUpInside" id="5bH-6m-xK2"/>
+                                                            <action selector="addToList:" destination="dk2-4Z-7gA" eventType="touchUpInside" id="nfr-el-9q1"/>
+                                                        </connections>
+                                                    </button>
+                                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-Gd-krw">
+                                                        <rect key="frame" x="41" y="91" width="332" height="34"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="listOfBooks:" destination="dk2-4Z-7gA" eventType="editingDidEnd" id="P5e-zw-MXl"/>
+                                                        </connections>
                                                     </textField>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRr-hN-r3A">
-                                                        <rect key="frame" x="183" y="101" width="42" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBV-KN-3ZM">
+                                                        <rect key="frame" x="186" y="133" width="16" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="   ">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Women in the Castle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3g-xw-fpA">
-                                                        <rect key="frame" x="62" y="323" width="192" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01d-Uu-zY9">
+                                                        <rect key="frame" x="94" y="23" width="230" height="30"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Books I want to Read">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="24" name="Didot"/>
+                                                                    <font key="NSOriginalFont" size="24" name="Didot"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtM-aj-G5d">
+                                                        <rect key="frame" x="188" y="178" width="0.0" height="0.0"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -405,7 +812,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E2O-tX-Acb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Me" image="house" catalog="system" id="CZN-Ar-MM7"/>
+                    <tabBarItem key="tabBarItem" title="About Me" image="person.circle" catalog="system" id="CZN-Ar-MM7"/>
+                    <connections>
+                        <outlet property="bookList" destination="PBV-KN-3ZM" id="HLx-Pu-aEo"/>
+                        <outlet property="listOfBooks" destination="uLT-Gd-krw" id="m1h-9l-DSR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esk-rH-54z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -413,11 +824,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="128" height="101"/>
         <image name="bookworm" width="279" height="181"/>
         <image name="bookworm-1" width="279" height="181"/>
+        <image name="circle" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <image name="plus.app" catalog="system" width="128" height="114"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="plus.rectangle" catalog="system" width="128" height="93"/>
     </resources>
 </document>
