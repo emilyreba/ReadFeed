@@ -15,10 +15,7 @@ class ChecklistViewController: UIViewController {
 
     
     
-    @IBOutlet weak var listOfBooks: UITextField!
    
-    @IBOutlet weak var bookList: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,7 +43,7 @@ class ChecklistViewController: UIViewController {
     
     
     @IBAction func addBooks(_ sender: UIButton) {
-        bookList.text = listOfBooks.text
+        
     }
     /*
     // MARK: - Navigation
