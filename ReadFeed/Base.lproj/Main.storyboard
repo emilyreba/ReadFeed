@@ -281,7 +281,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
-                                    <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="fxw-KX-Nfq"/>
+                                    <action selector="bookThree:" destination="MGR-HL-aAq" eventType="touchUpInside" id="nMq-0N-LOP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWS-PC-d3L">
@@ -289,7 +289,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
-                                    <action selector="bookFive:" destination="MGR-HL-aAq" eventType="touchUpInside" id="Ciz-Lx-TlE"/>
+                                    <action selector="bookFive:" destination="MGR-HL-aAq" eventType="touchUpInside" id="Ftf-hc-neO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6w-p7-gna">
@@ -297,7 +297,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
-                                    <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="cnr-xI-BgC"/>
+                                    <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="oXD-3G-Ahe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-Mh-Miu">
@@ -955,7 +955,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-zd-NoX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-zd-NoX" userLabel="Label Four Four">
                                 <rect key="frame" x="248" y="676" width="62" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1014,6 +1014,13 @@
                         <viewLayoutGuide key="safeArea" id="Pn7-q8-ocC"/>
                     </view>
                     <navigationItem key="navigationItem" id="dly-NU-jLU"/>
+                    <connections>
+                        <outlet property="labelFiveFive" destination="R6e-qz-AJC" id="Vse-3n-op2"/>
+                        <outlet property="labelFourFour" destination="EhY-zd-NoX" id="Hdz-Jj-QAY"/>
+                        <outlet property="labelOneOne" destination="XNK-WX-B7B" id="IiG-3q-b4y"/>
+                        <outlet property="labelThreeThree" destination="iqR-UR-auH" id="ayx-Ti-0kd"/>
+                        <outlet property="labelTwoTwo" destination="dRP-Zs-9vh" id="ZGf-RA-8YP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoD-wZ-VyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
