@@ -205,16 +205,16 @@
             </objects>
             <point key="canvasLocation" x="61" y="-258"/>
         </scene>
-        <!--View Controller-->
+        <!--Brothers View Controller-->
         <scene sceneID="0q5-vL-Nsn">
             <objects>
-                <viewController id="MGR-HL-aAq" sceneMemberID="viewController">
+                <viewController id="MGR-HL-aAq" userLabel="Brothers View Controller" customClass="BrothersViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qrR-aB-7Ms">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9os-pq-OBz">
-                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <rect key="frame" x="4" y="392" width="376" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Once We Were Brothers is Ronald H. Balson's compelling tale of two boys and a family who struggle to survive in war-torn Poland, and a young love that struggles to endure the unspeakable cruelty of the Holocaust. Two lives, two worlds, and sixty years converge in an explosive race to redemption that makes for a moving and powerful tale of love, survival, and ultimately the triumph of the human spirit.</string>
@@ -235,34 +235,125 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <segue destination="vTZ-FO-hWi" kind="push" id="zr2-wc-HT6"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onceWeWereBrothers" translatesAutoresizingMaskIntoConstraints="NO" id="VxH-Yu-Aga">
                                 <rect key="frame" x="4" y="64" width="408" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVU-6Y-5wX">
+                                <rect key="frame" x="12" y="669" width="392" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-EE-QE6">
+                                <rect key="frame" x="68" y="713" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrT-oM-yLp">
+                                <rect key="frame" x="124" y="711" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iR-6H-nHx">
+                                <rect key="frame" x="180" y="713" width="49" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTl-oa-z3O">
+                                <rect key="frame" x="246" y="713" width="44" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YJ-70-jA5">
+                                <rect key="frame" x="303" y="713" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep1-XD-j5u">
+                                <rect key="frame" x="64" y="701" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookOne:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="Elf-Qa-8Fe"/>
+                                    <action selector="bookOne:" destination="MGR-HL-aAq" eventType="touchUpInside" id="ch8-id-WHH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWd-hy-p0l">
+                                <rect key="frame" x="176" y="701" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="fxw-KX-Nfq"/>
+                                    <action selector="bookThree:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="mFl-1M-h81"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWS-PC-d3L">
+                                <rect key="frame" x="298" y="701" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFive:" destination="MGR-HL-aAq" eventType="touchUpInside" id="Ciz-Lx-TlE"/>
+                                    <action selector="bookFive:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="MTU-MZ-8PE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6w-p7-gna">
+                                <rect key="frame" x="237" y="701" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFour:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="P0W-ac-gAm"/>
+                                    <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="cnr-xI-BgC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-Mh-Miu">
+                                <rect key="frame" x="120" y="701" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookThree:" destination="MGR-HL-aAq" eventType="touchUpInside" id="729-Gy-vYS"/>
+                                    <action selector="bookTwo:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="skM-nE-wMi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Shl-rE-qwu"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q3L-rP-4zM"/>
+                    <connections>
+                        <outlet property="labelFive" destination="0YJ-70-jA5" id="i2t-Vg-GAe"/>
+                        <outlet property="labelFour" destination="PTl-oa-z3O" id="RLM-A2-m4H"/>
+                        <outlet property="labelOne" destination="cYY-EE-QE6" id="pTT-kA-rhf"/>
+                        <outlet property="labelThree" destination="9iR-6H-nHx" id="Zg2-J0-Fgg"/>
+                        <outlet property="labelTwo" destination="zrT-oM-yLp" id="74T-nu-kFb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Geo-hu-kSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293" y="538"/>
+            <point key="canvasLocation" x="1257.9710144927537" y="1176.5625"/>
         </scene>
         <!--Item-->
         <scene sceneID="0BJ-k0-lLG">
             <objects>
                 <viewController id="vTZ-FO-hWi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gtP-3i-8Cv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7VP-dN-G9b">
-                                <rect key="frame" x="0.0" y="20" width="414" height="802"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="856"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-Ej-41g">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
@@ -270,19 +361,6 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-TX-03a">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdK-V3-Qkt">
-                                                        <rect key="frame" x="139" y="0.0" width="137" height="45"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="My Feed">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="36" name="Didot"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Great Gatsby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcB-fZ-PcE">
                                                         <rect key="frame" x="0.0" y="53" width="414" height="32"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -295,7 +373,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="theGreatGatsby"/>
                                                         <connections>
-                                                            <segue destination="Asq-Kr-A6k" kind="push" id="A2y-Ij-lEQ"/>
+                                                            <segue destination="Asq-Kr-A6k" kind="show" id="d4e-Sb-hYF"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-HB-sPd">
@@ -308,6 +386,19 @@
                                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                     <font key="NSFont" size="17" name="Didot"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdK-V3-Qkt">
+                                                        <rect key="frame" x="139" y="13" width="137" height="45"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="My Feed">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="36" name="Didot"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -334,7 +425,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="onceWeWereBrothers"/>
                                                         <connections>
-                                                            <segue destination="MGR-HL-aAq" kind="push" id="uL8-qC-iJ0"/>
+                                                            <segue destination="MGR-HL-aAq" kind="show" id="anJ-Cj-vUR"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgY-Mf-lw9">
@@ -389,7 +480,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="exodus"/>
                                                         <connections>
-                                                            <segue destination="jqj-Nh-u4M" kind="push" id="3WG-ID-pjO"/>
+                                                            <segue destination="jqj-Nh-u4M" kind="show" id="Uos-UR-FG3"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -774,8 +865,8 @@
                                                             <action selector="listOfBooks:" destination="dk2-4Z-7gA" eventType="editingDidEnd" id="P5e-zw-MXl"/>
                                                         </connections>
                                                     </textField>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBV-KN-3ZM">
-                                                        <rect key="frame" x="186" y="133" width="16" height="23"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBV-KN-3ZM">
+                                                        <rect key="frame" x="41" y="133" width="332" height="69"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="   ">
@@ -844,7 +935,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esk-rH-54z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="-944"/>
+            <point key="canvasLocation" x="60.869565217391312" y="-944.19642857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wpH-L0-geF">
@@ -855,7 +946,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="siy-HG-D8x">
-                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <rect key="frame" x="20" y="407" width="376" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Exodus is a historical fiction novel about the establishment of the State of Israel in 1948. It begins with a descriptions of the illegal immigrations done by the Mossad Aliya Bet to get survivors of the Holocaust into Israel and ends with the Israeli War of Independence in 1948-1949</string>
@@ -880,9 +971,6 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <segue destination="vTZ-FO-hWi" kind="push" id="Mk2-pc-S7U"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -892,18 +980,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoD-wZ-VyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293" y="2111"/>
+            <point key="canvasLocation" x="1257.9710144927537" y="1922.5446428571427"/>
         </scene>
         <!--Great Gatsby-->
         <scene sceneID="Op7-Fu-Rkj">
             <objects>
-                <viewController id="Asq-Kr-A6k" userLabel="Great Gatsby" customClass="GreatGatsbyViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Asq-Kr-A6k" userLabel="Great Gatsby" customClass="greatgatsbyViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pFN-7D-dLd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MB5-ke-70Q">
-                                <rect key="frame" x="20" y="407" width="376" height="318"/>
+                                <rect key="frame" x="20" y="407" width="376" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted "gin was the national drink and sex the national obsession," it is an exquisitely crafted tale of America in the 1920s.
@@ -917,7 +1005,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4p-Nw-Qby">
-                                <rect key="frame" x="277" y="761" width="107" height="35"/>
+                                <rect key="frame" x="271" y="773" width="107" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Back To Feed">
@@ -929,49 +1017,6 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <segue destination="vTZ-FO-hWi" kind="push" id="HK4-Hu-6bd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yc-yL-XOR">
-                                <rect key="frame" x="64" y="697" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                                <connections>
-                                    <action selector="stBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="QO6-pK-hLm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huo-wK-0b2">
-                                <rect key="frame" x="176" y="697" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                                <connections>
-                                    <action selector="thirdBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="72k-f1-jA4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJg-J5-NNP">
-                                <rect key="frame" x="298" y="697" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                                <connections>
-                                    <action selector="fifthBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="W1R-nA-8xt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOv-Kv-F9R">
-                                <rect key="frame" x="237" y="697" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                                <connections>
-                                    <action selector="fourthBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="gBG-qu-zvL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUw-1G-eTU">
-                                <rect key="frame" x="120" y="697" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bookworm-1"/>
-                                <connections>
-                                    <action selector="secondBookworm:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="Trc-6k-i4N"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-hA-vef">
                                 <rect key="frame" x="12" y="665" width="392" height="24"/>
@@ -980,21 +1025,99 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zy-Lw-BXQ">
+                                <rect key="frame" x="68" y="709" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gke-K2-8gm">
+                                <rect key="frame" x="124" y="707" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s92-Kp-nZ6">
+                                <rect key="frame" x="180" y="709" width="49" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBA-LN-iDs">
+                                <rect key="frame" x="246" y="709" width="44" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylc-Yl-Sbf">
+                                <rect key="frame" x="303" y="709" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yc-yL-XOR">
+                                <rect key="frame" x="64" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookOne:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="j8P-8y-osd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huo-wK-0b2">
+                                <rect key="frame" x="176" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookThree:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="Ubo-v5-qas"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJg-J5-NNP">
+                                <rect key="frame" x="298" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFive:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="a6P-JK-VNh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOv-Kv-F9R">
+                                <rect key="frame" x="237" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFour:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="ZzK-L1-0UO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUw-1G-eTU">
+                                <rect key="frame" x="120" y="697" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookTwo:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="2vF-GT-45S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="OYR-ql-fYC"/>
                     </view>
                     <navigationItem key="navigationItem" id="wFZ-2G-mVx"/>
+                    <connections>
+                        <outlet property="labelFive" destination="ylc-Yl-Sbf" id="297-Pr-qIb"/>
+                        <outlet property="labelFour" destination="TBA-LN-iDs" id="UK7-tf-1pQ"/>
+                        <outlet property="labelOne" destination="3zy-Lw-BXQ" id="B0m-hA-4ZL"/>
+                        <outlet property="labelThree" destination="s92-Kp-nZ6" id="Rjd-fw-zP3"/>
+                        <outlet property="labelTwo" destination="Gke-K2-8gm" id="rms-Ja-53p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAr-io-Kc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293" y="1230"/>
+            <point key="canvasLocation" x="1257.9710144927537" y="419.86607142857139"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="A2y-Ij-lEQ"/>
-        <segue reference="HK4-Hu-6bd"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="101"/>
         <image name="bookworm-1" width="279" height="181"/>
@@ -1004,6 +1127,7 @@
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="onceWeWereBrothers" width="183" height="275"/>
+        <image name="openBook" width="299" height="168"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="plus.rectangle" catalog="system" width="128" height="93"/>
         <image name="theGreatGatsby" width="182" height="277"/>
