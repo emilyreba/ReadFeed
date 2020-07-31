@@ -3,4 +3,114 @@
    uuid = "8B5E929C-D7B5-4D63-8767-E8D5100F5995"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A32379B-F404-47FE-9D55-937767834A6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReadFeed/ExodusViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "bookOneOne(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - e5d3cb382cc4f198"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.labelFive.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - f9b185f7ee229dec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.labelFive.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - b5cf0b9e7bb58a9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.labelFive.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - 8e949b47dca3db6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.labelFive.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - f391e112d5356ab2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ReadFeed.ExodusViewController"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "738">
+               </Location>
+               <Location
+                  uuid = "6A32379B-F404-47FE-9D55-937767834A6C - 29599ffd5f2d4ace"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReadFeed.ExodusViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ReadFeed.ExodusViewController&gt;"
+                  moduleName = "ReadFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Emily/Downloads/ReadFeed-master-9/ReadFeed-master/ReadFeed/ExodusViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "679">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

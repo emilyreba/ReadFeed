@@ -35,7 +35,7 @@ class BrothersViewController: UIViewController {
         labelThree.text = " "
         labelFour.text = " "
         labelFive.text = " "
-    }
+}
     
     @IBAction func bookTwo(_ sender: UIButton) {
         labelOne.text = "🐛"

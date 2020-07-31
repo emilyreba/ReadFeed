@@ -15,8 +15,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQT-vN-ML3">
+                                <rect key="frame" x="59" y="473" width="302" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Our Recommendation...">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Didot"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-kG-faC">
+                                <rect key="frame" x="91" y="166" width="239" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Get Reccomendations">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Didot"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4co-IR-nXu">
-                                <rect key="frame" x="251" y="246" width="110" height="30"/>
+                                <rect key="frame" x="230" y="242" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brE-Hk-smD">
-                                <rect key="frame" x="57" y="295" width="119" height="31"/>
+                                <rect key="frame" x="56" y="291" width="127" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afb-Mw-hEC">
-                                <rect key="frame" x="251" y="344" width="110" height="30"/>
+                                <rect key="frame" x="230" y="340" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -73,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2pQ-c8-qbP">
-                                <rect key="frame" x="59" y="344" width="115" height="30"/>
+                                <rect key="frame" x="56" y="340" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -92,7 +117,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="naR-e9-jLR">
-                                <rect key="frame" x="250" y="295" width="112" height="31"/>
+                                <rect key="frame" x="230" y="291" width="129" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -111,7 +136,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W98-1s-ufM">
-                                <rect key="frame" x="59" y="397" width="115" height="30"/>
+                                <rect key="frame" x="56" y="393" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -130,7 +155,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xiC-Xh-jce">
-                                <rect key="frame" x="59" y="246" width="115" height="30"/>
+                                <rect key="frame" x="56" y="242" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,21 +172,8 @@
                                     <action selector="nonFictionButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="6rM-6f-0Sp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQT-vN-ML3">
-                                <rect key="frame" x="59" y="473" width="302" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Our Recommendation...">
-                                        <attributes>
-                                            <font key="NSFont" size="18" name="Didot"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aX6-Ix-lYg">
-                                <rect key="frame" x="251" y="397" width="110" height="30"/>
+                                <rect key="frame" x="230" y="393" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89818888900000005" green="0.89764636750000004" blue="0.9176504016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -179,18 +191,6 @@
                                     <action selector="memoirButton:" destination="Ym8-VS-SgN" eventType="touchUpInside" id="Hk1-Ny-0ym"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-kG-faC">
-                                <rect key="frame" x="91" y="166" width="239" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Get Reccomendations">
-                                        <attributes>
-                                            <font key="NSFont" size="24" name="Didot"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.83968120810000002" green="0.95250529049999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JDM-jm-fdF"/>
@@ -203,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3w2-Wr-bDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="-258"/>
+            <point key="canvasLocation" x="60.869565217391312" y="-258.48214285714283"/>
         </scene>
         <!--Brothers View Controller-->
         <scene sceneID="0q5-vL-Nsn">
@@ -213,7 +213,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9os-pq-OBz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9os-pq-OBz">
                                 <rect key="frame" x="4" y="392" width="376" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -222,109 +222,91 @@
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RlA-Ta-19j">
-                                <rect key="frame" x="272" y="753" width="107" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back To Feed">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back To Feed">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Didot"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onceWeWereBrothers" translatesAutoresizingMaskIntoConstraints="NO" id="VxH-Yu-Aga">
                                 <rect key="frame" x="4" y="64" width="408" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVU-6Y-5wX">
-                                <rect key="frame" x="12" y="669" width="392" height="24"/>
+                                <rect key="frame" x="12" y="682" width="392" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-EE-QE6">
-                                <rect key="frame" x="68" y="713" width="48" height="22"/>
+                                <rect key="frame" x="68" y="726" width="48" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrT-oM-yLp">
-                                <rect key="frame" x="124" y="711" width="48" height="22"/>
+                                <rect key="frame" x="124" y="724" width="48" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iR-6H-nHx">
-                                <rect key="frame" x="180" y="713" width="49" height="22"/>
+                                <rect key="frame" x="180" y="726" width="49" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTl-oa-z3O">
-                                <rect key="frame" x="246" y="713" width="44" height="22"/>
+                                <rect key="frame" x="246" y="726" width="44" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YJ-70-jA5">
-                                <rect key="frame" x="303" y="713" width="48" height="22"/>
+                                <rect key="frame" x="303" y="726" width="48" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep1-XD-j5u">
-                                <rect key="frame" x="64" y="701" width="53" height="44"/>
+                                <rect key="frame" x="64" y="714" width="53" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
-                                    <action selector="bookOne:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="Elf-Qa-8Fe"/>
                                     <action selector="bookOne:" destination="MGR-HL-aAq" eventType="touchUpInside" id="ch8-id-WHH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWd-hy-p0l">
-                                <rect key="frame" x="176" y="701" width="53" height="44"/>
+                                <rect key="frame" x="176" y="714" width="53" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
                                     <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="fxw-KX-Nfq"/>
-                                    <action selector="bookThree:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="mFl-1M-h81"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWS-PC-d3L">
-                                <rect key="frame" x="298" y="701" width="53" height="44"/>
+                                <rect key="frame" x="298" y="714" width="53" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
                                     <action selector="bookFive:" destination="MGR-HL-aAq" eventType="touchUpInside" id="Ciz-Lx-TlE"/>
-                                    <action selector="bookFive:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="MTU-MZ-8PE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6w-p7-gna">
-                                <rect key="frame" x="237" y="701" width="53" height="44"/>
+                                <rect key="frame" x="237" y="714" width="53" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
-                                    <action selector="bookFour:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="P0W-ac-gAm"/>
                                     <action selector="bookFour:" destination="MGR-HL-aAq" eventType="touchUpInside" id="cnr-xI-BgC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-Mh-Miu">
-                                <rect key="frame" x="120" y="701" width="53" height="44"/>
+                                <rect key="frame" x="120" y="714" width="53" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="openBook"/>
                                 <connections>
                                     <action selector="bookThree:" destination="MGR-HL-aAq" eventType="touchUpInside" id="729-Gy-vYS"/>
-                                    <action selector="bookTwo:" destination="Asq-Kr-A6k" eventType="touchUpInside" id="skM-nE-wMi"/>
+                                    <action selector="bookTwo:" destination="MGR-HL-aAq" eventType="touchUpInside" id="tOG-K4-S41"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -342,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Geo-hu-kSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257.9710144927537" y="1176.5625"/>
+            <point key="canvasLocation" x="1132" y="1340"/>
         </scene>
         <!--Item-->
         <scene sceneID="0BJ-k0-lLG">
@@ -744,12 +726,12 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-gy-oeJ">
-                                                        <rect key="frame" x="25" y="317" width="154" height="20"/>
+                                                        <rect key="frame" x="25" y="317" width="231" height="20"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Exodus by Leon Uris">
                                                                 <attributes>
-                                                                    <font key="NSFont" metaFont="system" size="18"/>
+                                                                    <font key="NSFont" size="18" name="Didot"/>
                                                                     <font key="NSOriginalFont" metaFont="system" size="18"/>
                                                                 </attributes>
                                                             </fragment>
@@ -828,19 +810,6 @@
                                                             <fragment content="The Great Gatsby by F. Scott Fitzgerald">
                                                                 <attributes>
                                                                     <font key="NSFont" size="18" name="Didot"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEc-cK-XVj">
-                                                        <rect key="frame" x="25" y="544" width="365" height="23"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Circe">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="18" name="Didot"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -937,15 +906,15 @@
             </objects>
             <point key="canvasLocation" x="60.869565217391312" y="-944.19642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Exodus View Controller-->
         <scene sceneID="wpH-L0-geF">
             <objects>
-                <viewController id="jqj-Nh-u4M" sceneMemberID="viewController">
+                <viewController id="jqj-Nh-u4M" customClass="ExodusViewController" customModule="ReadFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u6Z-Lx-PVp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="siy-HG-D8x">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="siy-HG-D8x">
                                 <rect key="frame" x="20" y="407" width="376" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -958,19 +927,87 @@
                                 <rect key="frame" x="7" y="60" width="401" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVR-Vm-ntj">
-                                <rect key="frame" x="277" y="756" width="107" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZU-h7-ZLL">
+                                <rect key="frame" x="12" y="644" width="392" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back To Feed">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back To Feed">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Didot"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNK-WX-B7B">
+                                <rect key="frame" x="36" y="677" width="62" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRP-Zs-9vh">
+                                <rect key="frame" x="110" y="676" width="62" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqR-UR-auH">
+                                <rect key="frame" x="178" y="678" width="62" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-zd-NoX">
+                                <rect key="frame" x="248" y="676" width="62" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6e-qz-AJC">
+                                <rect key="frame" x="312" y="678" width="62" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lho-vW-CL0">
+                                <rect key="frame" x="36" y="676" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookOneOne:" destination="jqj-Nh-u4M" eventType="touchUpInside" id="gO8-OO-Kgx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlb-KC-n45">
+                                <rect key="frame" x="106" y="676" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookTwoTwo:" destination="jqj-Nh-u4M" eventType="touchUpInside" id="YjR-8b-ymi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdn-3X-1IQ">
+                                <rect key="frame" x="308" y="677" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFiveFive:" destination="jqj-Nh-u4M" eventType="touchUpInside" id="axV-VZ-AQm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8U-Sh-wOo">
+                                <rect key="frame" x="242" y="677" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookFourFour:" destination="jqj-Nh-u4M" eventType="touchUpInside" id="T5V-7D-2Rl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZG-4e-mR0">
+                                <rect key="frame" x="174" y="677" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="openBook"/>
+                                <connections>
+                                    <action selector="bookThreeThree:" destination="jqj-Nh-u4M" eventType="touchUpInside" id="WS5-7c-DdC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83665138480000001" green="0.95193952319999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -980,7 +1017,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoD-wZ-VyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257.9710144927537" y="1922.5446428571427"/>
+            <point key="canvasLocation" x="1131.8840579710145" y="2010.9375"/>
         </scene>
         <!--Great Gatsby-->
         <scene sceneID="Op7-Fu-Rkj">
@@ -990,7 +1027,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MB5-ke-70Q">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MB5-ke-70Q">
                                 <rect key="frame" x="20" y="407" width="376" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83563399309999997" green="0.95251864190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1004,20 +1041,6 @@
                                 <rect key="frame" x="7" y="66" width="401" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4p-Nw-Qby">
-                                <rect key="frame" x="271" y="773" width="107" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.091733299195766449" green="0.14549544453620911" blue="0.46198743581771851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back To Feed">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back To Feed">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Didot"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many Bookworms do you rate this book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-hA-vef">
                                 <rect key="frame" x="12" y="665" width="392" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1115,7 +1138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAr-io-Kc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257.9710144927537" y="419.86607142857139"/>
+            <point key="canvasLocation" x="1132" y="698"/>
         </scene>
     </scenes>
     <resources>

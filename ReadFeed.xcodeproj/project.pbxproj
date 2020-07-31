@@ -13,6 +13,7 @@
 		A146D30224D0A8A900B0764F /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30124D0A8A900B0764F /* ChecklistViewController.swift */; };
 		A146D30824D38FE800B0764F /* greatgatsbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30724D38FE800B0764F /* greatgatsbyViewController.swift */; };
 		A146D30C24D3B17800B0764F /* BrothersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30B24D3B17800B0764F /* BrothersViewController.swift */; };
+		A146D30E24D3BF2200B0764F /* ExodusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A146D30D24D3BF2200B0764F /* ExodusViewController.swift */; };
 		B2943C8C24D09E06000FCB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8B24D09E06000FCB65 /* AppDelegate.swift */; };
 		B2943C8E24D09E06000FCB65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8D24D09E06000FCB65 /* SceneDelegate.swift */; };
 		B2943C9024D09E06000FCB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2943C8F24D09E06000FCB65 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		A146D30124D0A8A900B0764F /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		A146D30724D38FE800B0764F /* greatgatsbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatgatsbyViewController.swift; sourceTree = "<group>"; };
 		A146D30B24D3B17800B0764F /* BrothersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrothersViewController.swift; sourceTree = "<group>"; };
+		A146D30D24D3BF2200B0764F /* ExodusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExodusViewController.swift; sourceTree = "<group>"; };
 		B2943C8824D09E06000FCB65 /* ReadFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2943C8B24D09E06000FCB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2943C8D24D09E06000FCB65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				B2943C9124D09E06000FCB65 /* Main.storyboard */,
+				A146D30D24D3BF2200B0764F /* ExodusViewController.swift */,
 				A146D30B24D3B17800B0764F /* BrothersViewController.swift */,
 				A146D30724D38FE800B0764F /* greatgatsbyViewController.swift */,
 				B2943C8B24D09E06000FCB65 /* AppDelegate.swift */,
@@ -290,6 +293,7 @@
 				A146D30824D38FE800B0764F /* greatgatsbyViewController.swift in Sources */,
 				A146D2FC24D0A81900B0764F /* profilePageViewController.swift in Sources */,
 				B2943C8E24D09E06000FCB65 /* SceneDelegate.swift in Sources */,
+				A146D30E24D3BF2200B0764F /* ExodusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
